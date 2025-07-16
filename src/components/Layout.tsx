@@ -154,13 +154,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
-              <p className="text-gray-300">support@edinpro.com</p>
+              <p className="text-gray-300">edinprochennai@gmail.com</p>
               <p className="text-gray-300">+91-88072 30540 </p>
               <p className="text-gray-300">Chennai, India</p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 EdinPro. All rights reserved.</p>
+            <p>&copy; 2025 EdinPro. All rights reserved.</p>
           </div>
         </div>
       </footer>
