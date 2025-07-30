@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Mail, Phone, MapPin, Instagram, Linkedin, Youtube,  Send, Clock, MessageCircle, Star } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook,  Send, Clock, MessageCircle, Star } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -80,23 +80,24 @@ const Contact: React.FC = () => {
 
   const socialLinks = [
     {
+      icon: Facebook,
+      name: 'Facebook',
+      href: 'https://www.facebook.com/share/16wjchWhUq/',
+      color: 'bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700'
+    },   
+    {
       icon: Instagram,
       name: 'Instagram',
-      href: '#',
+      href: 'https://www.instagram.com/ed_in_pro?igsh=Z21lNTJkcHVqbmpy',
       color: 'bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700'
     },
     {
       icon: Linkedin,
       name: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/edin-pro/',
       color: 'bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800'
     },
-    {
-      icon: Youtube,
-      name: 'YouTube',
-      href: '#',
-      color: 'bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700'
-    },
+
 
   ];
 

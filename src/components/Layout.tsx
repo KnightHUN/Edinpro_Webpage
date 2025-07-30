@@ -12,7 +12,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   const navigationItems = [
     { path: '/', label: 'Home' },
-    { path: '/education', label: 'Education' },
     { path: '/internship', label: 'Internship' },
     { path: '/projects', label: 'Projects' },
     { path: '/contact', label: 'Contact' },

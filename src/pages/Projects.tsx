@@ -45,7 +45,6 @@ const Projects: React.FC = () => {
       description: 'Quick implementation projects perfect for skill demonstration',
       duration: '1-2 weeks',
       examples: ['Web Apps', 'ML Models', 'Mobile Apps'],
-      price: '₹5,000 - ₹15,000',
       image: 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=400',
       color: 'blue'
     },
@@ -54,7 +53,6 @@ const Projects: React.FC = () => {
       description: 'Comprehensive projects showcasing advanced technical skills',
       duration: '3-12 weeks',
       examples: ['AI-Powered Platforms', 'SaaS Tools', 'Cloud-integrated Services'],
-      price: '₹8,000 - ₹30,000',
       image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400',
       color: 'purple'
     }
@@ -304,7 +302,6 @@ const Projects: React.FC = () => {
                   </div>
                   
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-bold text-green-600">{type.price}</span>
                     <button 
                       onClick={handleButtonClick}
                       className={`bg-gradient-to-r ${getColorClasses(type.color)} text-white px-6 py-2 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105`}

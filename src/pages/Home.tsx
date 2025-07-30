@@ -55,7 +55,7 @@ const Home: React.FC = () => {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link
-                  to="/education"
+                  to="/internship"
                   onClick={handleLinkClick}
                   className="group bg-white text-blue-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 flex items-center justify-center transform hover:scale-105 hover:shadow-2xl"
                 >
@@ -172,33 +172,7 @@ const Home: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <Link
-              to="/education"
-              onClick={handleLinkClick}
-              className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 overflow-hidden"
-            >
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-700 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-              <div className="relative p-8">
-                <div className="mb-6">
-                  <img 
-                    src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                    alt="Education"
-                    className="w-full h-48 object-cover rounded-xl mb-4"
-                  />
-                  <BookOpen className="h-12 w-12 text-blue-600 group-hover:scale-110 transition-transform duration-300" />
-                </div>
-                <h3 className="text-2xl font-bold mb-4 text-gray-900">Education</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">
-                  Master core computer science concepts with our comprehensive curriculum
-                </p>
-                <div className="flex items-center text-blue-600 group-hover:text-blue-700">
-                  <span className="font-semibold">Learn More</span>
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-2 transition-transform duration-300" />
-                </div>
-              </div>
-            </Link>
-            
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <Link
               to="/internship"
               onClick={handleLinkClick}
